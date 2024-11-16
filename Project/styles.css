@@ -1,0 +1,137 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* h2 {
+  text-align: center;
+} */
+
+/* contact-us {
+  margin: auto;
+  padding: auto;
+} */
+
+.details {
+  text-align: center;
+  background-color: lightgray;
+  padding: 20px 20px;
+}
+
+#contact-details {
+  list-style: none;
+}
+
+#contact-details li {
+  display: inline;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.copyright {
+  font-weight: bold;
+}
+
+.about {
+  background-color: lightcyan;
+  padding: 20px 10px;
+}
+
+#about-1 {
+  text-align: center;
+}
+
+#navbar {
+  display: flex;
+  background-color: red;
+}
+
+#logo {
+  height: 50px;
+  width: 50px;
+}
+
+.search-bar {
+  margin: 10px 10px;
+  padding: 15px 15px;
+  height: 1px;
+  width: 1100px;
+}
+
+#sign {
+  margin: auto;
+}
+
+.buy {
+  display: flex;
+  text-align: start;
+  align-items: center;
+  background-color: yellow;
+  /* justify-content: center; */
+  padding: 50px 165px;
+}
+
+#buy-header {
+  text-align: center;
+  color: brown;
+}
+
+#buy-image {
+  margin-top: 10px;
+  margin-right: 10px;
+  padding-right: 5px;
+}
+
+.content-buy {
+  flex: 10;
+}
+
+.sell {
+  display: flex;
+  text-align: start;
+  align-items: center;
+  background-color: cyan;
+  padding: 50px 165px;
+}
+
+#sell-header {
+  text-align: center;
+  color: black;
+}
+
+.sell-image {
+  margin-top: 10px;
+  margin-right: 10px;
+  padding-right: 5px;
+}
+
+#content-sell {
+  flex: 10;
+}
+
+.rent {
+  display: flex;
+  text-align: start;
+  align-items: center;
+  background-color: lime;
+  padding: 50px 165px;
+}
+
+#rent-header {
+  text-align: center;
+  color: whitesmoke;
+}
+
+.rent-image {
+  margin-top: 10px;
+  margin-right: 10px;
+  padding-right: 5px;
+}
+
+#content-rent {
+  flex: 10;
+}
